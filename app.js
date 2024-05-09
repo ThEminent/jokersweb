@@ -1,4 +1,4 @@
-url = "https://v2.jokeapi.dev/joke/Any?type=single&amount=100";
+url = "https://v2.jokeapi.dev/joke/Any?type=single&amount=10";
 
 jokes = fetch(url);
 
