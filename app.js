@@ -14,8 +14,8 @@ jokes
             element_keys.unshift("joke");
 
 
-            if(element.flags.explicit)
-                return false;
+            // if(element.flags.explicit)
+            //     return false;
 
             element_keys.forEach(inner_element=>{  
                 if(["joke", "category", "lang", "flags"].indexOf(inner_element.toLowerCase())<0)
